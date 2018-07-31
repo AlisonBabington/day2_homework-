@@ -114,3 +114,22 @@ end
 def convert_fahrenheit_to_celsius(temp_f)
   return ((temp_f - 32) * 5) / 9
 end
+
+#Extra work
+
+
+def month_array_long (number)
+  month_array_long =["January" , "February" , "March" , "April" , "May" , "June" , "July" ,
+  "August" , "September" , "October" , "November" , "December"]
+
+  return month_array_long[number - 1]
+end
+
+def month_array_short (number)
+  month = month_array_long(number).split("")
+  return month[0..2].join("")
+end
+
+
+
+#Extra work

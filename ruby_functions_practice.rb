@@ -107,6 +107,10 @@ end
 
 
 def volume_of_a_sphere(radius)
-  number = (4.0 / 3.0) * (3.14) * (radius ** 3.0)
+  number = (4.0 / 3.0) * (Math::PI) * (radius ** 3.0)
   return number.round(2)
+end
+
+def convert_fahrenheit_to_celsius(temp_f)
+  return ((temp_f - 32) * 5) / 9
 end
